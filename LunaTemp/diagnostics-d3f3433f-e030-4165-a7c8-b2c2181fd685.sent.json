@@ -1,0 +1,197 @@
+{
+  "BuildID": "d3f3433f-e030-4165-a7c8-b2c2181fd685",
+  "Command": "project:deploy",
+  "ProjectID": "2cbeff7f7add5a14fbff6350d0fa31ad",
+  "ProjectStateHash": "f4fc9d8dcde0b1deb62ac128cbd41aad41afb49966d7767e3a70a8b011d7eb98",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1753191951585,
+  "EndTime": 1753191980495,
+  "PlaygroundUserID": 25311,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "playground",
+  "UnityVersion": "2022.3.56f1",
+  "LunaVersion": "6.3.0",
+  "LogCount": 8,
+  "Logs": [
+    {
+      "LogID": "b3c1e56b-6519-4fdd-90aa-3a3142f69b64",
+      "Order": 7,
+      "Timestamp": 1753191980856,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "ff03a021-e13d-4bae-beaa-4691a29a1917",
+      "Order": 7,
+      "Timestamp": 1753191980857,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "a52d6767-a3e0-454e-a9c8-cd69c19b2d69",
+      "Order": 0,
+      "Timestamp": 1753191957883,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1014",
+      "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+      "Details": [
+        "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "6673540f-fabe-4ee2-bb26-c9fc05be1e2e",
+      "Order": 1,
+      "Timestamp": 1753191957883,
+      "Stage": 1,
+      "ErrorType": 1,
+      "ErrorCode": "LP1023",
+      "Description": "Too many files for facebook platform",
+      "Details": [
+        "Too many files for facebook platform in use ($172) only $100 available"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "172",
+        "100"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "f75e3767-7252-4aac-be23-62e8ac6d1715",
+      "Order": 2,
+      "Timestamp": 1753191957908,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1027",
+      "Description": "This DOTween version is not supported",
+      "Details": [
+        "The incorrect DOTween version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "086b5b26-bd32-4cb2-801f-dab816bcae4f",
+      "Order": 3,
+      "Timestamp": 1753191957908,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1015",
+      "Description": "This TMP version is not fully supported",
+      "Details": [
+        "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "3481d270-b499-4344-91e7-bb41a3008709",
+      "Order": 4,
+      "Timestamp": 1753191957908,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [
+        "com.unity.timeline (1.7.6)"
+      ],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "D:/github/ZombieOutpost/Packages\\manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "a5c071b6-2430-4cb2-9df1-02eef832270d",
+      "Order": 5,
+      "Timestamp": 1753191957909,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1002",
+      "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+      "Details": [
+        "Repeat wrap mode used on 'Main Conveyor Belt' texture at 'Assets/_Project/Sprites/Conveyors/Main Conveyor Belt.png' with non power-of-two dimensions, this might not be rendered correctly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "Main Conveyor Belt",
+        "Assets/_Project/Sprites/Conveyors/Main Conveyor Belt.png"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "Assets/_Project/Sprites/Conveyors/Main Conveyor Belt.png",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}

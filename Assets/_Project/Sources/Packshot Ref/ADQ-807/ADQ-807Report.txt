@@ -1,0 +1,85 @@
+Report created: 
+	17.08.2022	23:34:42
+
+Project name: ADQ-807.aep
+
+Source files collected to: 
+	D:\AdQuantum\ADQ-807\ADQ-807
+
+Source files collected: For selected comps
+
+Collected comps:  
+	ADQ-807-1080x1080
+	Logo_Comp
+	Install_Plash_All
+	Google_Badge
+	App_Store_Badge
+	Matte
+	ADQ-807-1080x1350
+	Install_Plash_All
+	App_Store_Badge
+	Google_Badge
+	Logo_Comp
+	Matte
+	ADQ-807-1080x1920
+	Install_Plash_All
+	App_Store_Badge
+	Google_Badge
+	Logo_Comp
+	Matte
+	ADQ-807-1920x1080
+	Install_Plash_All
+	App_Store_Badge
+	Google_Badge
+	Logo_Comp
+	Matte
+	
+Number of collected files:  21
+
+Size of collected files:  35,3 MB
+
+Collected source files: 
+	D:\AdQuantum\ADQ-807\Badges\Download_on_the_App_Store_Badge_AR_blk_102417.eps
+	D:\AdQuantum\ADQ-807\Badges\Download_on_the_App_Store_Badge_DE_blk_092917.eps
+	D:\AdQuantum\ADQ-807\Badges\Download_on_the_App_Store_Badge_ES_blk_100217.eps
+	D:\AdQuantum\ADQ-807\Badges\Download_on_the_App_Store_Badge_ID_blk_100317.eps
+	D:\AdQuantum\ADQ-807\Badges\Download_on_the_App_Store_Badge_IN_blk_120619.eps
+	D:\AdQuantum\ADQ-807\Badges\Download_on_the_App_Store_Badge_MY_blk_100317.eps
+	D:\AdQuantum\ADQ-807\Badges\Download_on_the_App_Store_Badge_PTBR_blk_100317.eps
+	D:\AdQuantum\ADQ-807\Badges\Download_on_the_App_Store_Badge_TH_blk_092917.eps
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-ar.png
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-de.png
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-es-la.png
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-id.png
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-in.png
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-my.png
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-pt.png
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-sg.png
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-sw.png
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-th.png
+	D:\AdQuantum\ADQ-807\Badges\google-play-badge-za.png
+	D:\AdQuantum\ADQ-807\Download_on_the_App_Store_Badge_US-UK_blk_092917.eps
+	D:\AdQuantum\ADQ-807\google-play-badge-en.png
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  6
+
+Effect:  
+	
+Effect:  Badge_Select
+	
+Effect:  Badges_Language
+	
+Effect:  Color Control
+	
+Effect:  Gradient Ramp
+	
+Effect:  Point Control
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Gilroy”, Font style: “Bold”
+

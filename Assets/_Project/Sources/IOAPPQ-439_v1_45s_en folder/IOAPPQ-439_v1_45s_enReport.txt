@@ -1,0 +1,251 @@
+Report created: 
+	07.06.2024	11:47:28
+
+Project name: IOAPPQ-439_v1_45s_en.aep
+
+Source files collected to: 
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\IOAPPQ-439_v1_45s_en folder
+
+Source files collected: All
+
+Collected comps:  
+	IOAPPQ-435
+	IOAPPQ-435 (1)
+	IOAPPQ-435 (2)
+	IOAPPQ-435 (3)
+	IOAPPQ-435 (4)
+	IOAPPQ-435 (5)
+	IOAPPQ-435 (6)
+	IOAPPQ-435 (7)
+	IOAPPQ-435 (8)
+	IOAPPQ-435 (9)
+	water
+	border
+	zombies
+	bullets_heap_behind_conveyer
+	conveyer_yellow_line_intro
+	conveyer_red_line_intro
+	conveyer_blue_line_intro
+	wide_conveyer_intro
+	into+general_location
+	conveyer
+	bullet_line_blue
+	heap
+	bullet_line_red
+	heap_yellow_line
+	bullet_line_yellow
+	bullets_heap_general_location
+	conveyer_top_general
+	conveyer_mini_vertical
+	conveyer_middle_general
+	conveyer_mini_vertical copy
+	flamethrower
+	shooter
+	characters
+	lock
+	IOAPPQ-439_v1_45s_en_1920x1920
+	IOAPPQ-439_v1_45s_en_1920x1080
+	MAIN_COMP_1920x1920
+	IOAPPQ-439_v1_45s_en_1080x1920
+	IOAPPQ-439_v1_45s_en_1080x1350
+	IOAPPQ-439_v1_45s_en_1080x1080
+	Bdish
+	CONV
+	ResizeGuides
+	money
+	money_GOT
+	hand
+	ResizeGuides
+	SAFE-ZONE 1080X1080
+	SAFE-ZONE 1080X1350
+	SAFE-ZONE 1080X1920
+	SAFE-ZONE 1920X1080
+	Zombie_all
+	Zombie_all_in
+	Zombie_attack
+	SFX
+	for sounds
+	bullets_stack 
+	Группа 1
+	Группа 2
+	Группа 3
+	bg 3
+	Bullet 64 Comp 1
+	bullets_conveyer_1
+	bullets_stack 2
+	bullets_stack 3
+	conveyer_6
+	decor 2
+	fence
+	lock_buildings
+	Mask_Line
+	Mask_Line_hor
+	STOP_LINE Comp 1
+	alarm
+	Coin
+	IOAPPQ-326
+	BACKGRAUND
+	barikada
+	botle_blue
+	botle_red
+	bottle_yellow
+	characters
+	Conv_1
+	Conv_2
+	conveyer_1
+	conveyer_1
+	conveyer_1 копия
+	conveyer_1 копия 2
+	conveyer_2
+	conveyers
+	decor_shop
+	RES
+	RES_1
+	shop
+	shop копия
+	tracks_1
+	tracks_2
+	Service
+	speed
+	worker
+	hand
+	zombie_1
+	worker
+	PAC
+	PAC 2
+	PAC 3
+	PAC 4
+	TR
+	1x1
+	4x5
+	9x16
+	WORKER
+	STRELOK
+	16x9
+	MAIN
+	button
+	zombie_2
+	zombie_at
+	ZOMBIES
+	zombie_DOP
+	hire
+	speed
+	Zombies_at_dawn
+	ZOmbies_at_up
+	wave
+	IOAPPQ-439_v1_35s_en_1920x1921
+	IOAPPQ-439_v2_35s_en_1080x1080
+	IOAPPQ-439_v2_35s_en_1080x1350
+	IOAPPQ-439_v2_35s_en_1080x1920
+	IOAPPQ-439_v2_35s_en_1920x1080
+	
+Number of collected files:  322
+
+Size of collected files:  2,4 GB
+
+Collected source files: 
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\403005__inspectorj__ui-confirmation-alert-a4.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\arena-crowd-lose.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\Bubble.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\chopper-idle.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\chopper-leave.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\click.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\CROWD-OUTDOOR_GEN-HDF-08887.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\death-bell.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\explosion.mp3
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\fight-start-braam.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\Helicopter Flyover.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\item-bubble-appear.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\mapple-hit.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\mason-hit.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\metal-crate-open.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\music.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\purchase-upgrade.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\queue.mp3
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\rewardparticles_gems.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\shot.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\SplashWater SS016901.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\zombie-growl.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\audio-sound\sfx\zombie-turn.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\Conv_OLD.aep\res\audio-sound\sound.aep\SOUND\403005__inspectorj__ui-confirmation-alert-a4.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\Conv_OLD.aep\res\audio-sound\sound.aep\SOUND\448080__breviceps__wet-click.wav
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\Conv_OLD.aep\res\audio-sound\sound.aep\SOUND\queue.mp3
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\Conv_OLD.aep\res\collect\Bulletstack.aep\!bullets\STATIC231 Layers\STATIC231.psd
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\Conv_OLD.aep\res\images\BG\IOAPPQ-326 Layers\IOAPPQ-326.psd
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\Conv_OLD.aep\res\images\UI\hand.aep\Hand\IOAPPQ-195.psd
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\Conv_OLD.aep\res\video\footage\партикл_11.avi
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\money_UI.aep\#Render\MONEY\IOAPPQ-310_money_2729x2633.psd
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\PAC_ZOMBIE.aep\NEW_PAC\Pac\IOAPPQ-1_IOAPPQ__v1_en_1080x1080.mp4
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\PAC_ZOMBIE.aep\NEW_PAC\Pac\IOAPPQ-1_IOAPPQ__v1_en_1080x1350.mp4
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\PAC_ZOMBIE.aep\NEW_PAC\Pac\IOAPPQ-1_IOAPPQ__v1_en_1080x1920.mp4
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\PAC_ZOMBIE.aep\NEW_PAC\Pac\IOAPPQ-1_IOAPPQ__v1_en_1920x1080.mp4
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\collect\PAC_ZOMBIE.aep\NEW_PAC\zombie-mission-zombie-bite_28.png
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\bg\IOAPPQ-435 Layers\IOAPPQ-435.psd
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\bg\KUCHKA2_00000.png
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\bg\KUCHKA_1_00000.png
+	Sequence "character-mason-fire_[00-12].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\STRELOK\Mason_no_weapon with 13 files and 0 auxiliary files
+	Sequence "character-mason-idle_[00-20].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\STRELOK\Mason_no_weapon with 21 files and 0 auxiliary files
+	Sequence "customer-glen-idle_[00-13].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\WORKER\Customer with 14 files and 0 auxiliary files
+	Sequence "customer-glen-walking_[00-10].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\WORKER\Customer with 11 files and 0 auxiliary files
+	Sequence "customer-glen-idle_[00-13].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\WORKER\WORKER_UDIVLEN.aep\WORKER_UDIVLEN\WORKER\Customer with 14 files and 0 auxiliary files
+	Sequence "customer-glen-walking_[00-10].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\WORKER\WORKER_UDIVLEN.aep\WORKER_UDIVLEN\WORKER\Customer with 11 files and 0 auxiliary files
+	Sequence "zombie-zombie-bite_[00-28].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\ZOMBIE\5 with 29 files and 0 auxiliary files
+	Sequence "zombie-zombie-death_[00-38].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\ZOMBIE\5 with 39 files and 0 auxiliary files
+	Sequence "zombie-zombie-idle_[00-26].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\ZOMBIE\5 with 27 files and 0 auxiliary files
+	Sequence "zombie-zombie-walking-right_[00-26].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\ZOMBIE\5 with 27 files and 0 auxiliary files
+	Sequence "zombie-zombie-death_[00-38].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\ZOMBIE\zombie.aep\#Render\ZOMBIE\5 with 39 files and 0 auxiliary files
+	Sequence "zombie-zombie-idle_[00-26].png" at D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\ZOMBIE\zombie.aep\#Render\ZOMBIE\5 with 27 files and 0 auxiliary files
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\ZOMBIE\zombie.aep\#Render\ZOMBIE\Sparks 013 Impact Explosion Radial.mov
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\character\ZOMBIE\zombie.aep\#Render\ZOMBIE\Sparks 030 Impact Explosion Radial.mov
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\images\UI\hand.aep\Hand\IOAPPQ-195.psd
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\video\footage\coin-jump-2.mov
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\video\footage\green.mov
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\video\footage\panic.mov
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\video\footage\Sparks 013 Impact Explosion Radial.mov
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\video\footage\Sparks 030 Impact Explosion Radial.mov
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\video\footage\взрыв3.avi
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\video\footage\дым5.avi
+	D:\WORK\gamemarketing\2024-06-05_OAPPQ-439_v1_45_en\OAPPQ-439_v1_45_en\(Footage)\res\video\footage\партикл_11.avi
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  16
+
+Effect:  
+	
+Effect:  CC Toner
+	
+Effect:  Checkbox Control
+	
+Effect:  Color Control
+	
+Effect:  Curves
+	
+Effect:  Extract
+	
+Effect:  Fast Box Blur
+	
+Effect:  Fill
+	
+Effect:  Glow
+	
+Effect:  Gradient Ramp
+	
+Effect:  Particular
+	
+Effect:  Pixel Motion Blur
+	
+Effect:  Puppet
+	
+Effect:  Slider Control
+	
+Effect:  Tint
+	
+Effect:  Tritone
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Roboto”, Font style: “Black”
+

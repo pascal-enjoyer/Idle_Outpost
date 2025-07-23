@@ -1,0 +1,131 @@
+Report created: 
+	21.08.2023	13:34:14
+
+Project name: IOAPPQ-1.aep
+
+Source files collected to: 
+	D:\AppQuantum\IdleOutpost\Packshot\Video\IOAPPQ-1 folder
+
+Source files collected: All
+
+Collected comps:  
+	IOAPPQ__v1_en_1080x1080
+	IOAPPQ_Packshot_1080x1080 (1)
+	IOAPPQ_Packshot_1080x1080 (2)
+	IOAPPQ_Packshot_1080x1080 (4)
+	IOAPPQ_Packshot_1080x1080 (5)
+	IOAPPQ_Packshot_1080x1080 (6)
+	IOAPPQ_Packshot_1080x1080 (8)
+	IOAPPQ_Packshot_1080x1080 (9)
+	IOAPPQ_Packshot_1080x1080 (10)
+	IOAPPQ_Packshot_1080x1080 (11)
+	IOAPPQ_Packshot_1080x1080 (12)
+	IOAPPQ_Packshot_1080x1080 (13)
+	IOAPPQ_Packshot_1080x1080 (14)
+	Group 7
+	bg
+	Group 6
+	car
+	man
+	zombie
+	art
+	Group 2
+	Group 1
+	Group 4
+	Group 3
+	Logo
+	button2
+	IOAPPQ__v1_en_1080x1350
+	IOAPPQ_Packshot_1080x1350 (1)
+	IOAPPQ_Packshot_1080x1350 (2)
+	IOAPPQ_Packshot_1080x1350 (4)
+	IOAPPQ_Packshot_1080x1350 (5)
+	IOAPPQ_Packshot_1080x1350 (6)
+	IOAPPQ_Packshot_1080x1350 (8)
+	IOAPPQ_Packshot_1080x1350 (9)
+	IOAPPQ_Packshot_1080x1350 (10)
+	IOAPPQ_Packshot_1080x1350 (11)
+	IOAPPQ_Packshot_1080x1350 (12)
+	IOAPPQ_Packshot_1080x1350 (13)
+	IOAPPQ_Packshot_1080x1350 (14)
+	bg
+	Group 6
+	car
+	man
+	zombie
+	art
+	Group 2
+	Group 1
+	Group 4
+	Group 3
+	Logo
+	button2
+	IOAPPQ__v1_en_1080x1920
+	IOAPPQ_Packshot_1080x1920 (1)
+	IOAPPQ_Packshot_1080x1920 (2)
+	IOAPPQ_Packshot_1080x1920 (4)
+	IOAPPQ_Packshot_1080x1920 (5)
+	IOAPPQ_Packshot_1080x1920 (6)
+	IOAPPQ_Packshot_1080x1920 (8)
+	IOAPPQ_Packshot_1080x1920 (9)
+	IOAPPQ_Packshot_1080x1920 (10)
+	IOAPPQ_Packshot_1080x1920 (11)
+	IOAPPQ_Packshot_1080x1920 (12)
+	IOAPPQ_Packshot_1080x1920 (13)
+	IOAPPQ_Packshot_1080x1920 (14)
+	bg
+	Group 6
+	car
+	man
+	zombie
+	art
+	Group 2
+	Group 1
+	Group 4
+	Group 3
+	Logo
+	button2
+	IOAPPQ__v1_en_1920x1080
+	IOAPPQ_Packshot_1920x1080 (1)
+	IOAPPQ_Packshot_1920x1080 (2)
+	IOAPPQ_Packshot_1920x1080 (3)
+	IOAPPQ_Packshot_1920x1080 (5)
+	IOAPPQ_Packshot_1920x1080 (6)
+	IOAPPQ_Packshot_1920x1080 (7)
+	IOAPPQ_Packshot_1920x1080 (9)
+	IOAPPQ_Packshot_1920x1080 (10)
+	IOAPPQ_Packshot_1920x1080 (11)
+	IOAPPQ_Packshot_1920x1080 (12)
+	IOAPPQ_Packshot_1920x1080 (13)
+	IOAPPQ_Packshot_1920x1080 (14)
+	IOAPPQ_Packshot_1920x1080 (15)
+	bg
+	Group 6
+	car
+	man
+	zombie
+	art
+	Group 2
+	Group 1
+	Group 4
+	Group 3
+	Logo
+	button2
+	
+Number of collected files:  8
+
+Size of collected files:  146 MB
+
+Collected source files: 
+	D:\AppQuantum\IdleOutpost\Packshot\1.png
+	D:\AppQuantum\IdleOutpost\Packshot\2.png
+	D:\AppQuantum\IdleOutpost\Packshot\3.png
+	D:\AppQuantum\IdleOutpost\Packshot\4.png
+	D:\AppQuantum\IdleOutpost\Packshot\IOAPPQ_Packshot_1080x1080.psd
+	D:\AppQuantum\IdleOutpost\Packshot\IOAPPQ_Packshot_1080x1350.psd
+	D:\AppQuantum\IdleOutpost\Packshot\IOAPPQ_Packshot_1080x1920.psd
+	D:\AppQuantum\IdleOutpost\Packshot\IOAPPQ_Packshot_1920x1080.psd
+	
+Rendering plug-ins:
+	Classic 3D
+	

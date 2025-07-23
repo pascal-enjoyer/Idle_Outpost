@@ -1,0 +1,41 @@
+tap.png
+size:205,475
+filter:Linear,Linear
+pma:true
+Sparks Pickaxe_00000
+bounds:188,387,1,1
+Sparks Pickaxe_00011
+bounds:188,387,1,1
+Sparks Pickaxe_00001
+bounds:2,2,32,39
+offsets:45,42,128,128
+Sparks Pickaxe_00002
+bounds:119,324,64,67
+offsets:27,30,128,128
+rotate:90
+Sparks Pickaxe_00003
+bounds:104,9,88,85
+offsets:15,21,128,128
+Sparks Pickaxe_00004
+bounds:2,43,100,97
+offsets:9,17,128,128
+Sparks Pickaxe_00005
+bounds:2,142,107,106
+offsets:6,15,128,128
+Sparks Pickaxe_00006
+bounds:2,250,109,110
+offsets:5,14,128,128
+rotate:90
+Sparks Pickaxe_00007
+bounds:2,361,112,115
+offsets:4,12,128,128
+rotate:90
+Sparks Pickaxe_00008
+bounds:111,96,92,117
+offsets:25,11,128,128
+Sparks Pickaxe_00009
+bounds:114,215,87,107
+offsets:31,21,128,128
+Sparks Pickaxe_00010
+bounds:119,390,83,83
+offsets:34,45,128,128
