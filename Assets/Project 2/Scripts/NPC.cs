@@ -17,7 +17,6 @@ public class NPC : MonoBehaviour
             Debug.LogWarning($"No IPointOfInterestAction found on {point.name}");
             return;
         }
-        point.AssignNPC(this);
         pointAction.InitializeNPC(this);
         transform.position = point.npcPosition.position;
         Debug.Log($"NPC initialized at {point.name} at position {transform.position}");

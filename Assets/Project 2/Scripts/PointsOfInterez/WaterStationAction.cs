@@ -34,10 +34,6 @@ public class WaterStationAction : MonoBehaviour, IPointOfInterestAction
         {
             targetPosition = waterPickupPoint.position;
         }
-        if (owner is NPC)
-        {
-            StartAction();
-        }
     }
 
     public void InitializeNPC(NPC npc)

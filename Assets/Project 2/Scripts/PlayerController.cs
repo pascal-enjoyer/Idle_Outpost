@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class PlayerController : MonoBehaviour
         {
             Debug.LogWarning("Player requires an Animator component for animations");
         }
-        InitializeAtStartPoint();
+        StartCoroutine(InitializeAtStartPointDelayed());
     }
 
     void Update()
@@ -40,30 +41,59 @@ public class PlayerController : MonoBehaviour
             case PlayerState.PerformingAction:
                 if (currentPoint != null)
                 {
+                    // Продолжаем вызывать PerformAction, чтобы инициировать и поддерживать действие
                     currentPoint.PerformAction(this);
+                    Debug.Log($"Player performing action at {currentPoint.name}, IsPerformingAction: {currentPoint.IsPerformingAction()}");
                 }
                 else
                 {
+                    Debug.LogWarning("No current point assigned while in PerformingAction state");
                     SetState(PlayerState.Idle);
                 }
                 break;
         }
+
+        // Проверка ввода для прерывания действия
+        if (Input.GetKeyDown(KeyCode.E) && currentState == PlayerState.PerformingAction && currentPoint != null)
+        {
+            InterruptCurrentAction();
+        }
     }
 
-    private void InitializeAtStartPoint()
+    private IEnumerator InitializeAtStartPointDelayed()
     {
-        if (currentPoint != null)
+        // Ждем конца кадра, чтобы все PointOfInterest успели инициализироваться
+        yield return new WaitForEndOfFrame();
+
+        // Находим ближайшую точку интереса, не занятую NPC
+        PointOfInterest startPoint = RouteManager.Instance.FindCurrentPoint(transform.position);
+        if (startPoint != null)
         {
-            if (currentPoint.pointType == PointOfInterest.PointType.WaterStation ||
-                currentPoint.pointType == PointOfInterest.PointType.ShootingPost)
+            // Мгновенно перемещаем игрока к characterPosition точки
+            Vector2 startPos = startPoint.characterPosition != null
+                ? startPoint.characterPosition.position
+                : startPoint.transform.position;
+            transform.position = startPos;
+            currentPoint = startPoint;
+            SetCurrentPoint(startPoint);
+
+            // Если точка поддерживает действие (WaterStation или ShootingPost), начинаем его
+            if (startPoint.pointType == PointOfInterest.PointType.WaterStation ||
+                startPoint.pointType == PointOfInterest.PointType.ShootingPost)
             {
                 SetState(PlayerState.PerformingAction);
+                startPoint.PerformAction(this);
+                Debug.Log($"Player instantly moved to {startPoint.name} at {startPos} and started action, state: {currentState}");
             }
-            Debug.Log($"Player initialized at point: {currentPoint.name}, state: {currentState}");
+            else
+            {
+                SetState(PlayerState.Idle);
+                Debug.Log($"Player instantly moved to {startPoint.name} at {startPos}, no action available, state: {currentState}");
+            }
         }
         else
         {
-            Debug.LogWarning("Player not initialized at any PointOfInterest");
+            Debug.LogWarning("No available PointOfInterest found near player position: " + transform.position);
             SetState(PlayerState.Idle);
         }
     }
@@ -73,13 +103,10 @@ public class PlayerController : MonoBehaviour
         if (currentState == PlayerState.PerformingAction && currentPoint != null)
         {
             StopAllCoroutines();
-
             currentPoint.InterruptAction(this);
-
             SetState(PlayerState.Idle);
             currentPoint = null;
-
-            Debug.Log("Current action was interrupted");
+            Debug.Log("Current action was interrupted by player");
         }
     }
 
@@ -87,9 +114,10 @@ public class PlayerController : MonoBehaviour
     {
         return currentState == PlayerState.Moving;
     }
+
     public bool IsBusy()
     {
-        return IsMoving() || (currentState == PlayerState.PerformingAction && currentPoint != null && currentPoint.IsPerformingAction());
+        return IsMoving() || (currentState == PlayerState.PerformingAction && currentPoint != null);
     }
 
     public void SetRoute(Route route, PointOfInterest point, PointOfInterest current = null)
@@ -110,7 +138,7 @@ public class PlayerController : MonoBehaviour
         targetPosition = currentRoute.Points[0];
         targetPoint = point;
         currentPoint = current ?? RouteManager.Instance.FindCurrentPoint(transform.position);
-        Debug.Log($"Set route to {point.name}, current point: {(currentPoint != null ? currentPoint.name : "none")}");
+        Debug.Log($"Set route to {point.name}, current point: {(currentPoint != null ? point.name : "none")}");
         SetState(PlayerState.Moving);
     }
 
@@ -132,6 +160,11 @@ public class PlayerController : MonoBehaviour
             currentState = newState;
             Debug.Log($"Player state changed to: {newState}");
         }
+    }
+
+    public PlayerState GetCurrentState()
+    {
+        return currentState;
     }
 
     private void MoveToTarget()
@@ -168,17 +201,21 @@ public class PlayerController : MonoBehaviour
             {
                 SetState(PlayerState.PerformingAction);
                 currentPoint = targetPoint;
+                targetPoint.PerformAction(this);
+                Debug.Log($"Player arrived at {targetPoint.name} and started action");
             }
             else
             {
                 SetState(PlayerState.Idle);
                 currentPoint = null;
+                Debug.Log($"Player arrived at {targetPoint.name}, no action available");
             }
         }
         else
         {
             SetState(PlayerState.Idle);
             currentPoint = null;
+            Debug.Log("Player arrived at destination, no target point assigned");
         }
 
         currentRoute = null;

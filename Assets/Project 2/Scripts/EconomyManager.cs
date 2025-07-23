@@ -9,7 +9,7 @@ public class EconomyManager : MonoBehaviour
     [SerializeField] private GameObject fencePrefab;
     [SerializeField] private Transform fenceParent;
     [SerializeField] private int fenceCost = 300;
-    [SerializeField] private int npcCost = 200; 
+    [SerializeField] private int npcCost = 100; 
     private int coins;
 
     public UnityEvent<int> OnCoinsChanged;
@@ -82,7 +82,6 @@ public class EconomyManager : MonoBehaviour
             if (npcPrefab != null)
             {
                 coins -= npcCost;
-                Instantiate(npcPrefab, position, Quaternion.identity, parent);
                 OnCoinsChanged.Invoke(coins);
                 Debug.Log($"NPC purchased for {npcCost} coins. Remaining coins: {coins}");
                 return true;

@@ -85,6 +85,12 @@ public class RouteManager : MonoBehaviour
 
     public Route GetRouteToPoint(PointOfInterest targetPoint, PointOfInterest currentPoint)
     {
+        if (targetPoint == null)
+        {
+            Debug.LogError("Target point is null");
+            return null;
+        }
+
         if (targetPoint.HasNPC())
         {
             Debug.Log($"Cannot build route to {targetPoint.name}: occupied by NPC");

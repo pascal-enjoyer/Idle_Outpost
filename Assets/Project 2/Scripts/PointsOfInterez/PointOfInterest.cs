@@ -12,8 +12,8 @@ public class PointOfInterest : MonoBehaviour
     public Transform characterPosition;
     public Transform npcPosition;
     private IPointOfInterestAction pointAction;
-    [SerializeField] private PlayerController player;
-    private NPC npc; 
+    private PlayerController player;
+    private NPC npc;
 
     void Start()
     {
@@ -35,9 +35,14 @@ public class PointOfInterest : MonoBehaviour
         {
             Debug.LogWarning($"PointOfInterest {name} has unsupported pointType: {pointType}");
         }
-        if (pointAction != null)
+        if (pointAction != null && player != null)
         {
             pointAction.Initialize(player);
+            Debug.Log($"Initialized IPointOfInterestAction for {name}");
+        }
+        else
+        {
+            Debug.LogWarning($"Failed to initialize IPointOfInterestAction for {name}: pointAction = {(pointAction == null ? "null" : "found")}, player = {(player == null ? "null" : "found")}");
         }
     }
 
@@ -46,11 +51,20 @@ public class PointOfInterest : MonoBehaviour
         if (pointAction != null)
         {
             pointAction.InterruptAction(player);
+            Debug.Log($"Interrupted action for player at {name}");
         }
     }
 
     void OnMouseDown()
     {
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, 0f, LayerMask.GetMask("PurchaseButton"));
+        if (hit.collider != null && hit.collider.GetComponent<NPCPurchaseButton>() != null)
+        {
+            Debug.Log($"Click on {name} ignored: hit NPCPurchaseButton");
+            return;
+        }
+
         if (npc != null)
         {
             Debug.Log($"PointOfInterest {name} is occupied by NPC, ignoring click");
@@ -89,15 +103,15 @@ public class PointOfInterest : MonoBehaviour
             player.SetState(PlayerController.PlayerState.Idle);
             return;
         }
-        if (pointAction != null)
-        {
-            pointAction.PerformAction(player);
-        }
-        else
+        if (pointAction == null)
         {
             Debug.LogWarning($"No IPointOfInterestAction component found on {name}");
             player.SetState(PlayerController.PlayerState.Idle);
+            return;
         }
+
+        Debug.Log($"Player starting action at {name} with pointType {pointType}");
+        pointAction.PerformAction(player);
     }
 
     public bool IsPerformingAction()
@@ -111,6 +125,8 @@ public class PointOfInterest : MonoBehaviour
         if (npc != null)
         {
             Debug.Log($"NPC assigned to PointOfInterest {name}");
+            npc.Initialize(this);
+            npc.PerformAction();
         }
     }
 

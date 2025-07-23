@@ -3,8 +3,9 @@ using UnityEngine;
 public class NPCPurchaseButton : MonoBehaviour
 {
     [SerializeField] private PointOfInterest assignedPoint;
-    [SerializeField] private GameObject npcPrefab;
-    [SerializeField] private Sprite activeSprite; 
+    [SerializeField] private GameObject shootingPostNPCPrefab;
+    [SerializeField] private GameObject waterStationNPCPrefab;
+    [SerializeField] private Sprite activeSprite;
     [SerializeField] private Sprite inactiveSprite;
     private SpriteRenderer spriteRenderer;
 
@@ -19,9 +20,9 @@ public class NPCPurchaseButton : MonoBehaviour
         {
             Debug.LogError($"NPCPurchaseButton {name} requires an assigned PointOfInterest");
         }
-        if (npcPrefab == null)
+        if (shootingPostNPCPrefab == null || waterStationNPCPrefab == null)
         {
-            Debug.LogError($"NPCPurchaseButton {name} requires an npcPrefab");
+            Debug.LogError($"NPCPurchaseButton {name} requires both NPC prefabs assigned");
         }
         if (activeSprite == null || inactiveSprite == null)
         {
@@ -39,26 +40,37 @@ public class NPCPurchaseButton : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (assignedPoint.HasNPC())
+        if (assignedPoint == null || assignedPoint.HasNPC())
         {
-            Debug.Log($"PointOfInterest {assignedPoint.name} already has an NPC");
+            Debug.Log($"PointOfInterest {assignedPoint?.name} already has an NPC or is not assigned");
             return;
         }
+
+        GameObject npcPrefab = assignedPoint.pointType == PointOfInterest.PointType.ShootingPost
+            ? shootingPostNPCPrefab
+            : waterStationNPCPrefab;
+
         if (EconomyManager.Instance.TryPurchaseNPC(npcPrefab, assignedPoint.npcPosition.position, assignedPoint.transform))
         {
-            NPC npc = FindObjectOfType<NPC>();
+            NPC npc = npcPrefab.GetComponent<NPC>();
             if (npc != null)
             {
-                npc.Initialize(assignedPoint);
-                gameObject.SetActive(false); 
+                GameObject npcInstance = Instantiate(npcPrefab, assignedPoint.npcPosition.position, Quaternion.identity, assignedPoint.transform);
+                npc = npcInstance.GetComponent<NPC>();
+                assignedPoint.AssignNPC(npc);
+                gameObject.SetActive(false);
                 Debug.Log($"NPC purchased and initialized at {assignedPoint.name}");
+            }
+            else
+            {
+                Debug.LogError($"NPC prefab {npcPrefab.name} does not have an NPC component");
             }
         }
     }
 
     private void UpdateButtonState(int coins)
     {
-        bool canAfford = coins >= EconomyManager.Instance.NPCCost && !assignedPoint.HasNPC();
+        bool canAfford = coins >= EconomyManager.Instance.NPCCost && assignedPoint != null && !assignedPoint.HasNPC();
         spriteRenderer.sprite = canAfford ? activeSprite : inactiveSprite;
         Debug.Log($"NPCPurchaseButton: Can afford NPC = {canAfford}, Coins = {coins}");
     }
